@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="13" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[PaisaLoginPageCheck is pass]]>
+    </line>
+    <line>
+      <![CDATA[PaisaLoginModulePresent is pass]]>
+    </line>
+    <line>
+      <![CDATA[PaisaLoginPopup is pass]]>
+    </line>
+    <line>
+      <![CDATA[PaisaLoginEmailEnable is pass]]>
+    </line>
+    <line>
+      <![CDATA[PaisaLoginPasswordPresent pass]]>
+    </line>
+    <line>
+      <![CDATA[PaisaLoginButtonPresent pass]]>
+    </line>
+    <line>
+      <![CDATA[PaisaLoginButtonEnable pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65455" started-at="2017-07-26T05:10:47Z" finished-at="2017-07-26T05:11:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="65455" started-at="2017-07-26T05:10:47Z" finished-at="2017-07-26T05:11:52Z">
+      <class name="com.paisa.script.PaisaLoginPageCheck">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.paisa.script.PaisaLoginPageCheck@29774679]" name="openApp" is-config="true" duration-ms="0" started-at="2017-07-26T10:41:50Z" finished-at="2017-07-26T10:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testPaisaLoginPageCheck()[pri:1, instance:com.paisa.script.PaisaLoginPageCheck@29774679]" name="testPaisaLoginPageCheck" duration-ms="106" started-at="2017-07-26T10:41:50Z" finished-at="2017-07-26T10:41:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PaisaLoginPageCheck is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPaisaLoginPageCheck -->
+      </class> <!-- com.paisa.script.PaisaLoginPageCheck -->
+      <class name="com.paisa.script.PaisaLoginModulePresent">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.paisa.script.PaisaLoginModulePresent@523884b2]" name="openApp" is-config="true" duration-ms="1" started-at="2017-07-26T10:41:50Z" finished-at="2017-07-26T10:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testPaisaLoginButtonPresent()[pri:2, instance:com.paisa.script.PaisaLoginModulePresent@523884b2]" name="testPaisaLoginButtonPresent" duration-ms="371" started-at="2017-07-26T10:41:50Z" finished-at="2017-07-26T10:41:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PaisaLoginModulePresent is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPaisaLoginButtonPresent -->
+      </class> <!-- com.paisa.script.PaisaLoginModulePresent -->
+      <class name="com.paisa.script.PaisaLoginPasswordEnable">
+        <test-method status="PASS" signature="browserSet()[pri:0, instance:com.paisa.script.PaisaLoginPasswordEnable@4501b7af]" name="browserSet" is-config="true" duration-ms="63288" started-at="2017-07-26T10:40:47Z" finished-at="2017-07-26T10:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSet -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.paisa.script.PaisaLoginPasswordEnable@4501b7af]" name="openApp" is-config="true" duration-ms="0" started-at="2017-07-26T10:41:52Z" finished-at="2017-07-26T10:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testPaisaLoginPasswordEnable()[pri:5, instance:com.paisa.script.PaisaLoginPasswordEnable@4501b7af]" name="testPaisaLoginPasswordEnable" duration-ms="160" started-at="2017-07-26T10:41:52Z" finished-at="2017-07-26T10:41:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PaisaLoginPasswordPresent pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPaisaLoginPasswordEnable -->
+      </class> <!-- com.paisa.script.PaisaLoginPasswordEnable -->
+      <class name="com.paisa.script.PaisaLoginButtonPresent">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.paisa.script.PaisaLoginButtonPresent@5e5792a0]" name="openApp" is-config="true" duration-ms="0" started-at="2017-07-26T10:41:52Z" finished-at="2017-07-26T10:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testPaisaLoginButtonPresent()[pri:6, instance:com.paisa.script.PaisaLoginButtonPresent@5e5792a0]" name="testPaisaLoginButtonPresent" duration-ms="229" started-at="2017-07-26T10:41:52Z" finished-at="2017-07-26T10:41:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PaisaLoginButtonPresent pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPaisaLoginButtonPresent -->
+      </class> <!-- com.paisa.script.PaisaLoginButtonPresent -->
+      <class name="com.paisa.script.PaisaLoginEmailEnable">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.paisa.script.PaisaLoginEmailEnable@3ffc5af1]" name="openApp" is-config="true" duration-ms="11" started-at="2017-07-26T10:41:51Z" finished-at="2017-07-26T10:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testPaisaLoginEmailEnable()[pri:4, instance:com.paisa.script.PaisaLoginEmailEnable@3ffc5af1]" name="testPaisaLoginEmailEnable" duration-ms="120" started-at="2017-07-26T10:41:51Z" finished-at="2017-07-26T10:41:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PaisaLoginEmailEnable is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPaisaLoginEmailEnable -->
+      </class> <!-- com.paisa.script.PaisaLoginEmailEnable -->
+      <class name="com.paisa.script.PaisaLoginPopup">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.paisa.script.PaisaLoginPopup@5b275dab]" name="openApp" is-config="true" duration-ms="0" started-at="2017-07-26T10:41:51Z" finished-at="2017-07-26T10:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testPaisaLoginPopup()[pri:3, instance:com.paisa.script.PaisaLoginPopup@5b275dab]" name="testPaisaLoginPopup" duration-ms="677" started-at="2017-07-26T10:41:51Z" finished-at="2017-07-26T10:41:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PaisaLoginPopup is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPaisaLoginPopup -->
+      </class> <!-- com.paisa.script.PaisaLoginPopup -->
+      <class name="com.paisa.script.PaisaLoginButtonEnable">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.paisa.script.PaisaLoginButtonEnable@61832929]" name="openApp" is-config="true" duration-ms="0" started-at="2017-07-26T10:41:52Z" finished-at="2017-07-26T10:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testPaisaLoginButtonEnable()[pri:7, instance:com.paisa.script.PaisaLoginButtonEnable@61832929]" name="testPaisaLoginButtonEnable" duration-ms="297" started-at="2017-07-26T10:41:52Z" finished-at="2017-07-26T10:41:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PaisaLoginButtonEnable pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPaisaLoginButtonEnable -->
+      </class> <!-- com.paisa.script.PaisaLoginButtonEnable -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

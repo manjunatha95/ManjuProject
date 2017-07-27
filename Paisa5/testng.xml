@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.paisa.script.PaisaLoginPasswordEnable"/>
+      <class name="com.paisa.script.PaisaLoginModulePresent"/>
+      <class name="com.paisa.script.PaisaLoginPopup"/>
+      <class name="com.paisa.script.PaisaLoginButtonEnable"/>
+      <class name="com.paisa.script.PaisaLoginPageCheck"/>
+      <class name="com.paisa.script.PaisaLoginEmailEnable"/>
+      <class name="com.paisa.script.PaisaLoginButtonPresent"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
